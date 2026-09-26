@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تماس با ما | آموزشگاه کنکور اوج</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body data-page="contact">
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand"><span class="brand-mark">اوج</span> آموزشگاه کنکور اوج</a>
+    <nav class="nav-links">
+      <a href="index.html" data-nav="home">خانه</a>
+      <a href="about_us.html" data-nav="about">درباره ما</a>
+      <a href="courses.html" data-nav="courses">دوره‌ها</a>
+      <a href="teachers.html" data-nav="teachers">اساتید</a>
+      <a href="contact_us.html" data-nav="contact">تماس با ما</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact_us.html" class="btn btn-primary">مشاوره رایگان</a>
+      <button class="nav-toggle" aria-label="باز کردن منو"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">خانه</a> / تماس با ما</div>
+    <h1>سوالی داری؟ باهامون صحبت کن</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container detail-grid">
+    <div class="form-card">
+      <div id="form-success" class="form-success">پیام شما با موفقیت ثبت شد. به‌زودی با شما تماس می‌گیریم. (این یک دموی نمایشی است و پیام واقعی ارسال نمی‌شود)</div>
+      <form id="contact-form" novalidate>
+        <div class="field">
+          <label for="name">نام و نام خانوادگی</label>
+          <input type="text" id="name" name="name" required>
+          <span class="error-msg">لطفاً نام خود را وارد کنید.</span>
+        </div>
+        <div class="grid-2">
+          <div class="field">
+            <label for="email">ایمیل</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-msg">لطفاً یک ایمیل معتبر وارد کنید.</span>
+          </div>
+          <div class="field">
+            <label for="phone">شماره تماس</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span class="error-msg">لطفاً شماره تماس خود را وارد کنید.</span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="subject">موضوع</label>
+          <select id="subject" name="subject">
+            <option>مشاوره ثبت‌نام</option>
+            <option>سوال درباره دوره‌ها</option>
+            <option>پیگیری کلاس فعلی</option>
+            <option>سایر موارد</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">پیام شما</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="error-msg">لطفاً پیام خود را بنویسید.</span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">ارسال پیام</button>
+        <p class="form-note text-center">فرم بالا صرفاً جهت نمایش است و به هیچ سروری متصل نیست.</p>
+      </form>
+    </div>
+
+    <div>
+      <div class="contact-info-card">
+        <div class="feature-icon">☎</div>
+        <div><b>تلفن تماس</b><p style="color:var(--ink-soft);font-size:14px;">۰۲۱-۱۲۳۴۵۶۷۸ (شنبه تا پنجشنبه، ۹ تا ۲۰)</p></div>
+      </div>
+      <div class="contact-info-card">
+        <div class="feature-icon">✉</div>
+        <div><b>ایمیل</b><p style="color:var(--ink-soft);font-size:14px;">info@ojekonkur.demo</p></div>
+      </div>
+      <div class="contact-info-card">
+        <div class="feature-icon">⌂</div>
+        <div><b>آدرس</b><p style="color:var(--ink-soft);font-size:14px;">تهران، خیابان انقلاب، پلاک ۱۲، طبقه ۲</p></div>
+      </div>
+      <div class="map-frame">
+        <iframe src="https://www.google.com/maps?q=Tehran,Enghelab+Street&output=embed" loading="lazy" title="نقشه محل آموزشگاه"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>آموزشگاه کنکور اوج</h4>
+        <p>همراه داوطلبان کنکور از سال ۱۳۹۳؛ با تمرکز بر برنامه‌ریزی اصولی و آزمون‌محور.</p>
+      </div>
+      <div>
+        <h4>دسترسی سریع</h4>
+        <ul>
+          <li><a href="about_us.html">درباره ما</a></li>
+          <li><a href="courses.html">دوره‌ها</a></li>
+          <li><a href="teachers.html">اساتید</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>دوره‌ها</h4>
+        <ul>
+          <li><a href="courses.html">کنکور ریاضی</a></li>
+          <li><a href="courses.html">کنکور تجربی</a></li>
+          <li><a href="courses.html">کنکور انسانی</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>ارتباط با ما</h4>
+        <ul>
+          <li>تهران، خیابان انقلاب، پلاک ۱۲</li>
+          <li>۰۲۱-۱۲۳۴۵۶۷۸</li>
+          <li>info@ojekonkur.demo</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">این یک وب‌سایت دموی نمایشی است. تمام اطلاعات و آمار جنبه‌ی نمونه دارند. © ۱۴۰۴ آموزشگاه اوج</div>
+  </div>
+</footer>
+
+<script src="static/js/main.js"></script>
+</body>
+</html>
