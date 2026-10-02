@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
     stats.forEach(function (el) { observer.observe(el); });
   }
 
-  /* فرم تماس با ما — اعتبارسنجی ساده سمت کلاینت (دمو، بدون بک‌اند) */
+  /* فرم تماس با ما — اعتبارسنجی ساده سمت کلاینت */
   var form = document.querySelector("#contact-form");
   if (form) {
     form.addEventListener("submit", function (e) {
